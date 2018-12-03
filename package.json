@@ -1,0 +1,19 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "testcafe chrome ./src/tests/**/*.ts",
+    "lint": "tslint --project ."
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "testcafe": "^0.23.1",
+    "testcafe-react-selectors": "^3.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.1"
+  }
+}
